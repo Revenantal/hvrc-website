@@ -1,0 +1,6 @@
+<?php 
+    return (object) array(
+        'env'           => 'development',   // What Enviroment Type are we in? ['live', 'development']
+        'cdn'           => '',              // Are we using a CDN? Blank for no, URL for true (https://google.com/)
+        'version'       => '1.0.0',         // Set version attributing here to bust cache
+    );

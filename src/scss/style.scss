@@ -15,7 +15,61 @@ body {
     position: relative;
 }
 
+.hover-scale, .hover-scale i {
+    transform: scale(1);
+    transition: transform 0.3s;
 
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: $brand-primary;
+    transition: color 0.4s;
+
+
+    &:hover, &:active, &:focus {
+        color: lighten($brand-primary, 5%);
+        text-decoration: none;
+    }
+}
+
+h1 {
+    color:white;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+h2 {
+    font-size: 7rem;
+    font-weight:bold;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 2rem;
+    font-weight:bold;
+    letter-spacing: -1px;
+}
+
+.text-brand {
+    color: $brand-primary;
+}
+
+.text-brand-secondary {
+    color: $brand-secondary;
+}
+
+.social-badges {
+    font-size:3rem;
+    line-height:1;
+}
 
 .video-background {
 
@@ -53,6 +107,7 @@ body {
         z-index:-1;
     }
 }
+
 header {
     .intro {
         z-index: 2;
@@ -77,6 +132,7 @@ header {
             font-size: 1.3rem;
             padding: 30px 20px;
             transition: background-color 0.1s, padding 0.3s;
+            text-decoration: none;
     
             &.active {
                 background: rgba($brand-primary, 0.5);
@@ -148,43 +204,6 @@ header {
 .content {
     z-index: 2;
     position: absolute;
-}
-
-.hover-scale {
-    transform: scale(1);
-    transition: transform 0.3s;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}
-
-h1 {
-    color:white;
-    font-size:2rem;
-    font-weight:bold;
-}
-
-h2 {
-    font-size: 7rem;
-    font-weight:bold;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    line-height: 1.1;
-}
-
-h4 {
-    font-size: 2rem;
-    font-weight:bold;
-    letter-spacing: -1px;
-}
-
-.text-brand {
-    color: $brand-primary;
-}
-
-.text-brand-secondary {
-    color: $brand-secondary;
 }
 
 .vh-125 {
