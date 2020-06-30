@@ -50,8 +50,8 @@
                                     <div class="col-md-8 align-self-center">
                                         <h4 class="text-white">Steven<br>(Hummy Seed)</h4>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
-                                            <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/hummy_seed/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
+                                            <a href="https://twitter.com/Hummy_Seed" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -60,10 +60,10 @@
                             <div class="offset-md-4 col-md-8 text-right">
                                 <div class="row">
                                     <div class="col-md-8 align-self-center">
-                                        <h4 class="text-white">Mark (Fluffypuppy32)</h4>
+                                        <h4 class="text-white">Mark<br>(Fluffypuppy32)</h4>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
-                                            <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/markbradyyy/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
+                                            <a href="https://twitter.com/markbradyyy" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-md-4 align-self-center text-center">
@@ -80,12 +80,13 @@
                                     <div class="col-md-8 align-self-center">
                                         <h4 class="text-white">Jeff<br>(Jobey)</h4>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
-                                            <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/real_jobey/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-instagram"></i></a>
+                                            <a href="https://twitter.com/realjobey/" target="_blank" class="hover-scale"><i class="fab fa-fw fa-twitter"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                     </div>
 
