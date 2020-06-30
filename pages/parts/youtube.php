@@ -17,12 +17,22 @@
                             <img src="dist/assets/img/youtube-logo.png" alt="Youtube Logo" class="img-fluid hover-scale px-md-5">
                         </a>
                         <h4 class="text-brand text-center mt-3 mb-5">the latest and the greatest</h4>
-                        <img src="dist/assets/img/temp-youtube-placeholder.jpg" class="img-fluid mb-5">
-                        <img src="dist/assets/img/temp-youtube-placeholder.jpg" class="img-fluid">
+                        <div class="youtube-container mb-5">
+                            <div class="youtube-cover d-flex align-items-center text-center"><h4 class="mx-auto">Loading...</h4></div>
+                        </div>
+                        <div class="youtube-container">
+                            <div class="youtube-cover d-flex align-items-center text-center"><h4 class="mx-auto">Loading...</h4></div>
+                        </div>
+                        
+                         <!--<img src="dist/assets/img/temp-youtube-placeholder.jpg" class="img-fluid">-->
                     </div>
                     <div class="col-md-6 pl-md-4 align-self-center">
-                        <img src="dist/assets/img/temp-youtube-placeholder.jpg" class="img-fluid  mb-5">
-                        <img src="dist/assets/img/temp-youtube-placeholder.jpg" class="img-fluid">
+                        <div class="youtube-container mb-5">
+                            <div class="youtube-cover d-flex align-items-center text-center"><h4 class="mx-auto">Loading...</h4></div>
+                        </div>
+                        <div class="youtube-container">
+                            <div class="youtube-cover d-flex align-items-center text-center"><h4 class="mx-auto">Loading...</h4></div>
+                    </div>
                     </div>
                 </div>
             </div>
