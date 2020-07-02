@@ -3,8 +3,8 @@
 
         <div class="video-background w-100 h-100">
             <div class="overlay"></div>
-            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php $Helper->getAsset('dist/assets/video/section-1.mp4');?>" type="video/mp4">
+            <video class="slower" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="<?php $Helper->getAsset('dist/assets/video/drinks.mp4');?>" type="video/mp4">
             </video>
         </div>
         
@@ -30,6 +30,8 @@
                                             <a href="https://www.youtube.com/user/steven2134/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fab fa-youtube"></i></a>
                                             <a href="https://www.twitch.tv/hummysvrcomedy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitch"><i class="fab fa-twitch"></i></a>
                                             <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.tiktok.com/@hummysvrcomedy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Tiktok"><i class="fab fa-tiktok"></i></a>
+                                            
                                         </div>
                                     </div>
                                     <div class="col-md-4 align-self-center text-center">

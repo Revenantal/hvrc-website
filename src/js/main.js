@@ -18,9 +18,13 @@ $( document ).ready(function() {
 
         var easter_egg = new Konami(function() { jobeyInvasion(5000); });
 
-        $('[data-toggle="tooltip"]').tooltip();
-    }
 
+        // Found the website was a bit too chaotic feeling when videos were played at 100%.
+        $('video.slower').each (function() {
+            $(this).get(0).playbackRate = 0.7;
+        });
+
+    }
 
     // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function toggleStickyHeader() {

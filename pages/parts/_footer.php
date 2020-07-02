@@ -10,6 +10,7 @@
                     <a href="https://www.youtube.com/user/steven2134/" target="_blank" class="hover-scale mx-1"><i class="fab fa-youtube text-white text-white"></i></a>
                     <a href="https://www.twitch.tv/hummysvrcomedy" target="_blank" class="hover-scale mx-1"><i class="fab fa-twitch text-white"></i></a>
                     <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale mx-1"><i class="fab fa-twitter text-white"></i></a>
+                    <a href="https://www.tiktok.com/@hummysvrcomedy" target="_blank" class="hover-scale mx-1"><i class="fab fa-tiktok text-white"></i></a>
                 </p>
             </div>
         </div>
