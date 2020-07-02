@@ -4,7 +4,7 @@
         <div class="video-background w-100 h-100">
             <div class="overlay white"></div>
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="dist/assets/video/temp-intro.mp4" type="video/mp4">
+                <source src="<?php $Helper->getAsset('dist/assets/video/temp-intro.mp4');?>" type="video/mp4">
             </video>
         </div>
 
@@ -20,22 +20,22 @@
                 <div class="row align-items-center text-center">
                     <div class="col-md-6">
                         <a href="https://www.patreon.com/hummysvrcomedy" target="_blank">
-                            <img src="dist/assets/img/discord-logo.png" class="img-fluid hover-scale">
+                            <img src="<?php $Helper->getAsset('dist/assets/img/discord-logo.png');?>" class="img-fluid hover-scale" alt="Discord Logo">
                         </a>
                     </div>
                     <div class="col-md-6">
                         <a href="https://teespring.com/stores/hummys-vr-comedy-store" target="_blank">
-                            <img src="dist/assets/img/teespring-logo.png" class="img-fluid hover-scale my-5">
+                            <img src="<?php $Helper->getAsset('dist/assets/img/teespring-logo.png');?>" class="img-fluid hover-scale my-5" alt="Teespring Logo">
                         </a>
                     </div>
                     <div class="col-md-6">
                         <a href="https://www.patreon.com/hummysvrcomedy" target="_blank">
-                            <img src="dist/assets/img/patron-badge.png" class="img-fluid hover-scale">
+                            <img src="<?php $Helper->getAsset('dist/assets/img/patron-badge.png');?>" class="img-fluid hover-scale" alt="Patreon Logo">
                         </a>
                     </div>
                     <div class="col-md-6">
                         <a href="https://www.humblebundle.com/store?partner=hvrc" target="_blank">
-                            <img src="dist/assets/img/humble-partner.png" class="img-fluid hover-scale">
+                            <img src="<?php $Helper->getAsset('dist/assets/img/humble-partner.png');?>" class="img-fluid hover-scale" alt="Humble Partner Logo">
                         </a>
                     </div>
                 </div>

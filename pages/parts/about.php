@@ -4,7 +4,7 @@
         <div class="video-background w-100 h-100">
             <div class="overlay white"></div>
             <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="dist/assets/video/temp-intro.mp4" type="video/mp4">
+                <source src="<?php $Helper->getAsset('dist/assets/video/temp-intro.mp4');?>" type="video/mp4">
             </video>
         </div>
 

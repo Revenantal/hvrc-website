@@ -3,7 +3,7 @@
     <div class="video-background w-100 h-100">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="dist/assets/video/temp-intro.mp4" type="video/mp4">
+        <source src="<?php $Helper->getAsset('dist/assets/video/temp-intro.mp4');?>" type="video/mp4">
         </video>
     </div>
 
@@ -12,7 +12,7 @@
             <div class="container">
                 <ul class="navbar-nav nav-fill w-100 d-flex justify-content-around">
                     <a class="logo align-self-center d-flex" href="#home">
-                        <img src="dist/assets/img/hvrc-logo.png" class="img-fluid align-self-center hover-scale mx-auto d-block" alt="Hummys VR Comedy Logo">
+                        <img src="<?php $Helper->getAsset('dist/assets/img/hvrc-logo.png');?>" class="img-fluid align-self-center hover-scale mx-auto d-block" alt="Hummy's VR Comedy Logo">
                     </a>
                     <li class="nav-item"><a class="nav-link" href="#youtube">YOUTUBE</a></li>
                     <li class="nav-item"><a class="nav-link" href="#twitch">TWITCH</a></li>
@@ -29,7 +29,7 @@
         <div class="container mt-3">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center">A Youtube Comedy Trio</h1>
+                    <h1 class="text-center">An Improv Comedy Trio</h1>
                 </div>
             </div>
         </div>
