@@ -1,6 +1,6 @@
-<header id="home" class="vh-100 d-flex align-items-center">
+<header id="home" class="d-flex align-items-center">
 
-    <div class="video-background w-100 h-100">
+    <div class="video-background w-100">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="<?php $Helper->getAsset('dist/assets/video/temp-intro.mp4');?>" type="video/mp4">
