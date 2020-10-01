@@ -3,8 +3,8 @@
 
         <div class="video-background w-100">
             <div class="overlay"></div>
-            <video class="slower" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php $Helper->getAsset('dist/assets/video/drinks.mp4');?>" type="video/mp4">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="slower lazy" data-src="<?php $Helper->getAsset('dist/assets/video/drinks.mp4');?>">
+                <source type="video/mp4" >
             </video>
         </div>
         
@@ -26,12 +26,11 @@
                                     <div class="col-lg-8 col-9 align-self-center">
                                         <h4 class="text-white">Official</h4>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://www.facebook.com/hummysvrcomedy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="https://www.youtube.com/user/steven2134/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="fab fa-youtube"></i></a>
-                                            <a href="https://www.twitch.tv/hummysvrcomedy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitch"><i class="fab fa-twitch"></i></a>
-                                            <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
-                                            <a href="https://www.tiktok.com/@hummysvrcomedy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Tiktok"><i class="fab fa-tiktok"></i></a>      
+                                            <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
+                                            <a href="https://www.facebook.com/hummysvrcomedy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="lni lni-facebook-original"></i></a>
+                                            <a href="https://www.youtube.com/user/steven2134/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Youtube"><i class="lni lni-youtube"></i></a>
+                                            <a href="https://www.twitch.tv/hummysvrcomedy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitch"><i class="lni lni-twitch"></i></a>
+                                            <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-3 align-self-center text-center">
@@ -46,12 +45,12 @@
                                         <img src="<?php $Helper->getAsset('dist/assets/img/Steven.jpg');?>" class="img-fluid mx-auto img-thumbnail" alt="Picture of Steven">
                                     </div>
                                     <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0"><i class="fas fa-gamepad fa-fw text-brand mr-3" aria-hidden="true"></i>Hummy_Seed</h4>
-                                        <h4 class="text-white d-inline-block"><i class="far fa-address-card fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Steven</h3>
+                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3" aria-hidden="true"></i>Hummy_Seed</h4>
+                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Steven</h3>
                                         <p class="text-white"><small>Director, Video Editor, Streamer</small></p>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/hummy_seed/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://twitter.com/Hummy_Seed" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/hummy_seed/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
+                                            <a href="https://twitter.com/Hummy_Seed" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -60,12 +59,12 @@
                             <div class="col-lg-8 offset-lg-4 text-right mb-lg-0 mb-4">
                                 <div class="row">
                                     <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0">Fluffypuppy32<i class="fas fa-gamepad fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
-                                        <h3 class="text-white d-inline-block">Mark</h3><h4 class="text-white d-inline-block"><i class="far fa-address-card fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
+                                        <h4 class="text-white mb-0">Fluffypuppy32<i class="lni lni-game fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
+                                        <h3 class="text-white d-inline-block">Mark</h3><h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
                                         <p class="text-white"><small>Stand-up Comedian, Improv Comedian, Social Media</small></p>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/markbradyyy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://twitter.com/markbradyyy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/markbradyyy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
+                                            <a href="https://twitter.com/markbradyyy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-3 align-self-center text-center">
@@ -80,12 +79,12 @@
                                         <img src="<?php $Helper->getAsset('dist/assets/img/Jeff.jpg');?>" class="img-fluid mx-auto img-thumbnail"  alt="Picture of Jeff">
                                     </div>
                                     <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0"><i class="fas fa-gamepad fa-fw text-brand mr-3" aria-hidden="true"></i>Jobey</h4>
-                                        <h4 class="text-white d-inline-block"><i class="far fa-address-card fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Jeff</h3>
+                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3" aria-hidden="true"></i>Jobey</h4>
+                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Jeff</h3>
                                         <p class="text-white"><small>Improv Comedian, Podcast Editor, Lead Streamer</small></p>
                                         <div class="social-badges">
-                                            <a href="https://www.instagram.com/real_jobey/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://twitter.com/realjobey/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/real_jobey/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
+                                            <a href="https://twitter.com/realjobey/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
                                 </div>

@@ -177,9 +177,9 @@ header {
     
     
         .logo {
-            height: 0;
             transition: all 0.5s;
-            width:300px;
+            height: 30px;
+            width: 150px;
             visibility:visible;
 
             img {
@@ -196,6 +196,7 @@ header {
             border-top: 5px solid rgba(254, 0, 0, 0.5);
             border-bottom: 5px solid rgba(254, 0, 0, 0.5);
             z-index:99999;
+            display:none;
         
 
             transition: all 0.5s;
@@ -290,6 +291,17 @@ footer {
 }
 @media (min-width: $large-breakpoint) {   
 
+    header {  
+        .navbar.navbar-hvrc {
+            .logo {
+                height: 0;
+                width:300px;
+            }
+            &.is-sticky {
+                display:block;
+            }
+        }
+    }
 
 }
 @media (min-width: $medium-breakpoint) {  
@@ -309,7 +321,6 @@ footer {
     body {
         font-size: 1.5rem;
     }
-
 }
 @media (min-width: $small-breakpoint) {  
 

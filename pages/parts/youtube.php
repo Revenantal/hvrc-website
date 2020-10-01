@@ -3,8 +3,8 @@
 
         <div class="video-background w-100">
             <div class="overlay"></div>
-            <video class="slower" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-                <source src="<?php $Helper->getAsset('dist/assets/video/tummy-touch.mp4');?>" type="video/mp4">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="slower lazy" data-src="<?php $Helper->getAsset('dist/assets/video/tummy-touch.mp4');?>">
+                <source type="video/mp4" >
             </video>
         </div>
        

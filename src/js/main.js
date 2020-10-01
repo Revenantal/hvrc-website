@@ -8,13 +8,12 @@ $( document ).ready(function() {
 
     init();
 
-    
-
-
     function init() {
         toggleStickyHeader();
         populateYoutubeVideos();
         populateTwitchStream();
+
+        var lazyLoadInstance = new LazyLoad();
 
         var easter_egg = new Konami(function() { jobeyInvasion(5000); });
 
@@ -101,5 +100,5 @@ $( document ).ready(function() {
 
             }, frequency);
         }
-    }
+    } 
 });
