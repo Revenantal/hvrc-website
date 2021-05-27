@@ -21,9 +21,9 @@
                     <div class="col-xl-10 col-12 offset-xl-1">
                         <div class="row">                    
 
-                            <div class="col-lg-8 offset-lg-4 text-right mb-lg-0 mb-4">
+                            <div class="col-lg-8 offset-lg-4 text-sm-right text-center mb-lg-0 mb-5">
                                 <div class="row">
-                                    <div class="col-lg-8 col-9 align-self-center">
+                                    <div class="col-lg-8 col-sm-9 col-12 align-self-center">
                                         <h4 class="text-white">Official</h4>
                                         <div class="social-badges">
                                             <a href="https://www.instagram.com/hummys_vr_comedy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
@@ -33,20 +33,20 @@
                                             <a href="https://twitter.com/HummysVr" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-3 align-self-center text-center">
-                                        <img src="<?php $Helper->getAsset('dist/assets/img/hvrc-logo.png');?>" class="img-fluid mx-auto" style="max-height:200px;">
+                                    <div class="col-lg-4 col-3 align-self-center text-center d-sm-block d-none">
+                                        <img data-src="<?php $Helper->getAsset('dist/assets/img/hvrc-logo.png');?>" class="img-fluid mx-auto lazy" style="max-height:200px;">
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-8 text-left mb-lg-0 mb-4">
+                            <div class="col-lg-8 text-left mb-lg-0 mb-5 text-sm-left text-center">
                                 <div class="row">
-                                    <div class="col-lg-4 col-3 align-self-center text-center">
-                                        <img src="<?php $Helper->getAsset('dist/assets/img/Steven.jpg');?>" class="img-fluid mx-auto img-thumbnail" alt="Picture of Steven">
+                                    <div class="col-lg-4 col-3 align-self-center text-center d-none d-sm-block">
+                                        <img data-src="<?php $Helper->getAsset('dist/assets/img/Steven.jpg');?>" class="img-fluid mx-auto img-thumbnail lazy" alt="Picture of Steven">
                                     </div>
-                                    <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3" aria-hidden="true"></i>Hummy_Seed</h4>
-                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Steven</h3>
+                                    <div class="col-lg-8 col-sm-9 col-12 align-self-center">
+                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3 d-none d-sm-inline" aria-hidden="true"></i>Hummy_Seed</h4>
+                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3 d-none d-sm-inline" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Steven</h3>
                                         <p class="text-white"><small>Director, Video Editor, Streamer</small></p>
                                         <div class="social-badges">
                                             <a href="https://www.instagram.com/hummy_seed/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
@@ -56,31 +56,31 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-8 offset-lg-4 text-right mb-lg-0 mb-4">
+                            <div class="col-lg-8 offset-lg-4 text-sm-right text-center mb-lg-0 mb-5">
                                 <div class="row">
-                                    <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0">Fluffypuppy32<i class="lni lni-game fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
-                                        <h3 class="text-white d-inline-block">Mark</h3><h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand ml-3" aria-hidden="true"></i></h4>
+                                    <div class="col-lg-8 col-sm-9 col-12 align-self-center">
+                                        <h4 class="text-white mb-0">Fluffypuppy32<i class="lni lni-game fa-fw text-brand ml-3 d-none d-sm-inline" aria-hidden="true"></i></h4>
+                                        <h3 class="text-white d-inline-block">Mark</h3><h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand ml-3 d-none d-sm-inline" aria-hidden="true"></i></h4>
                                         <p class="text-white"><small>Stand-up Comedian, Improv Comedian, Social Media</small></p>
                                         <div class="social-badges">
                                             <a href="https://www.instagram.com/markbradyyy/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>
                                             <a href="https://twitter.com/markbradyyy" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="lni lni-twitter-original"></i></a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-3 align-self-center text-center">
-                                        <img src="<?php $Helper->getAsset('dist/assets/img/Mark.jpg');?>" class="img-fluid mx-auto img-thumbnail" alt="Picture of Mark">
+                                    <div class="col-lg-4 col-3 align-self-center text-center d-sm-block d-none">
+                                        <img data-src="<?php $Helper->getAsset('dist/assets/img/Mark.jpg');?>" class="img-fluid mx-auto img-thumbnail lazy" alt="Picture of Mark">
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-lg-8 text-left mb-lg-0 mb-4">
+                            <div class="col-lg-8 text-left mb-lg-0 mb-5 text-sm-left text-center">
                                 <div class="row">
-                                    <div class="col-lg-4 col-3 align-self-center text-center">
-                                        <img src="<?php $Helper->getAsset('dist/assets/img/Jeff.jpg');?>" class="img-fluid mx-auto img-thumbnail"  alt="Picture of Jeff">
+                                    <div class="col-lg-4 col-3 align-self-center text-center d-none d-sm-block">
+                                        <img data-src="<?php $Helper->getAsset('dist/assets/img/Jeff.jpg');?>" class="img-fluid mx-auto img-thumbnail lazy"  alt="Picture of Jeff">
                                     </div>
-                                    <div class="col-lg-8 col-9 align-self-center">
-                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3" aria-hidden="true"></i>Jobey</h4>
-                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Jeff</h3>
+                                    <div class="col-lg-8 col-sm-9 col-12 align-self-center">
+                                        <h4 class="text-white mb-0"><i class="lni lni-game fa-fw text-brand mr-3 d-none d-sm-inline" aria-hidden="true"></i>Jobey</h4>
+                                        <h4 class="text-white d-inline-block"><i class="lni lni-postcard fa-fw text-brand mr-3 d-none d-sm-inline" aria-hidden="true"></i></h4><h3 class="text-white d-inline-block">Jeff</h3>
                                         <p class="text-white"><small>Improv Comedian, Podcast Editor, Lead Streamer</small></p>
                                         <div class="social-badges">
                                             <a href="https://www.instagram.com/real_jobey/" target="_blank" class="hover-scale" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="lni lni-instagram-original"></i></a>

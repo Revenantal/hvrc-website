@@ -20,24 +20,24 @@
                 <div class="row align-items-center text-center">
                     <div class="col-xl-6 col-6">
                         <a href="https://www.patreon.com/hummysvrcomedy" target="_blank">
-                            <img src="<?php $Helper->getAsset('dist/assets/img/discord-logo.png');?>" class="img-fluid hover-scale" alt="Discord Logo">
+                            <img data-src="<?php $Helper->getAsset('dist/assets/img/discord-logo.png');?>" class="img-fluid hover-scale lazy" alt="Discord Logo">
                         </a>
                     </div>
                     <div class="col-xl-6 col-6">
                         <a href="https://teespring.com/stores/hummys-vr-comedy-store" target="_blank">
-                            <img src="<?php $Helper->getAsset('dist/assets/img/teespring-logo.png');?>" class="img-fluid hover-scale my-5" alt="Teespring Logo">
+                            <img data-src="<?php $Helper->getAsset('dist/assets/img/teespring-logo.png');?>" class="img-fluid hover-scale my-5 lazy" alt="Teespring Logo">
                         </a>
                     </div>
                     <div class="col-xl-6 col-6">
                         <a href="https://www.patreon.com/hummysvrcomedy" target="_blank">
-                            <img src="<?php $Helper->getAsset('dist/assets/img/patron-badge.png');?>" class="img-fluid hover-scale" alt="Patreon Logo">
+                            <img data-src="<?php $Helper->getAsset('dist/assets/img/patron-badge.png');?>" class="img-fluid hover-scale lazy" alt="Patreon Logo">
                         </a>
                     </div>
                     <div class="col-xl-6 col-6">
                         <div class="row">
                             <div class="col-xl-12 col-6 offset-xl-0 offset-3">
                                 <a href="https://www.humblebundle.com/store?partner=hvrc" target="_blank">
-                                    <img src="<?php $Helper->getAsset('dist/assets/img/humble-partner.png');?>" class="img-fluid hover-scale" alt="Humble Partner Logo">
+                                    <img data-src="<?php $Helper->getAsset('dist/assets/img/humble-partner.png');?>" class="img-fluid hover-scale lazy" alt="Humble Partner Logo">
                                 </a>
                             </div>
                         </div>

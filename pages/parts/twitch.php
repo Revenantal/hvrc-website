@@ -15,7 +15,7 @@
                         <div class="row">
                             <div class="col-xl-12 col-6 offset-xl-0 offset-3">
                             <a href="https://www.twitch.tv/hummysvrcomedy/" target="_blank">
-                            <img src="<?php $Helper->getAsset('dist/assets/img/twitch-logo.png');?>" alt="Twitch Logo" class="img-fluid hover-scale px-md-5">
+                            <img data-src="<?php $Helper->getAsset('dist/assets/img/twitch-logo.png');?>" alt="Twitch Logo" class="img-fluid hover-scale px-md-5 lazy">
                         </a>
                             </div>
                             <div class="col-12">
@@ -23,7 +23,7 @@
                             </div>
                         </div> 
                     </div>
-                    <div class="col-xl-9 col-10 offset-xl-0 offset-1">
+                    <div class="col-xl-9 col-sm-10 offset-xl-0 offset-sm-1 col-12 ">
                         <div id="twitch-stream-container" class="embed-responsive embed-responsive-16by9"></div>
                     </div>
                 </div>

@@ -22,17 +22,17 @@
                         <div class="row align-items-center mb-xl-0 mb-5">
                             <div class="col-xl-12 col-4">
                                 <a href="https://podcasts.apple.com/us/podcast/hummys-vr-comedy/id1478902815" target="_blank">
-                                    <img src="<?php $Helper->getAsset('dist/assets/img/itunes-badge.png');?>" alt="iTunes Store Badge" class="img-fluid hover-scale mb-xl-5 px-xl-4">
+                                    <img data-src="<?php $Helper->getAsset('dist/assets/img/itunes-badge.png');?>" alt="iTunes Store Badge" class="img-fluid hover-scale mb-xl-5 px-xl-4 lazy">
                                 </a>
                             </div>
                             <div class="col-xl-12 col-4">
                                 <a href="https://soundcloud.com/jobey-jobey/" target="_blank">
-                                    <img src="<?php $Helper->getAsset('dist/assets/img/soundcloud-logo.png');?>" alt="Soundcloud Logo" class="img-fluid hover-scale mb-xl-5 px-xl-4">
+                                    <img data-src="<?php $Helper->getAsset('dist/assets/img/soundcloud-logo.png');?>" alt="Soundcloud Logo" class="img-fluid hover-scale mb-xl-5 px-xl-4 lazy">
                                 </a>
                             </div>
                             <div class="col-xl-12 col-4">
                                 <a href="https://open.spotify.com/show/6fhwRObXnKxkLLwkbh2vSO" target="_blank">
-                                    <img src="<?php $Helper->getAsset('dist/assets/img/spotify-logo.png');?>" alt="Spotify Logo" class="img-fluid hover-scale mb-xl-5 px-xl-4">
+                                    <img data-src="<?php $Helper->getAsset('dist/assets/img/spotify-logo.png');?>" alt="Spotify Logo" class="img-fluid hover-scale mb-xl-5 px-xl-4 lazy">
                                 </a>
                             </div>
                         </div>

@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-xl-6 align-self-center order-xl-last order-first mb-5 mb-xl-0">
                         <h2 class="text-brand text-center">About</h2>
-                        <h4 class="text-center">a cool tag line here</h4>
+                        <h4 class="text-center">why we do it</h4>
                     </div>
                 </div>
             </div>

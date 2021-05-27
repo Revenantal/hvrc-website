@@ -6,7 +6,7 @@
             $videoArray = ['cards.mp4', 'drinks.mp4', 'heart-roll.mp4', 'jump-scare.mp4', 'out-ya-go.mp4', 'shark-attack.mp4', 'tummy-touch.mp4'];
             $videoName = $videoArray[array_rand($videoArray)]; 
         ?>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="lazy" data-src="<?php $Helper->getAsset('dist/assets/video/' . $videoName);?>">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="lazy slower" data-src="<?php $Helper->getAsset('dist/assets/video/' . $videoName);?>">
             <source type="video/mp4" >
         </video>
     </div>
@@ -16,7 +16,7 @@
             <div class="container">
                 <ul class="navbar-nav nav-fill w-100 d-flex justify-content-around">
                     <a class="logo align-self-center d-flex" href="#home">
-                        <img src="<?php $Helper->getAsset('dist/assets/img/hvrc-logo.png');?>" class="img-fluid align-self-center hover-scale mx-auto d-block" alt="Hummy's VR Comedy Logo">
+                        <img data-src="<?php $Helper->getAsset('dist/assets/img/hvrc-logo.png');?>" class="img-fluid align-self-center hover-scale mx-auto d-block lazy" alt="Hummy's VR Comedy Logo">
                     </a>
                     <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#youtube">YOUTUBE</a></li>
                     <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#twitch">TWITCH</a></li>
