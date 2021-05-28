@@ -4,7 +4,7 @@ class OrganizationHelper {
     public $config;
 
     function __construct()  {
-        $this->config = require('_config.php');
+        $this->config = require($_SERVER['DOCUMENT_ROOT'] . '/_config.php');
     }
 
     public function getAsset($path) {

@@ -31,12 +31,12 @@
                         <div class="row">   
                             <div class="col-12 col-sm-6 col-xl-12">
                                 <div class="youtube-container mb-xl-5 mb-3 embed-responsive embed-responsive-16by9">
-                                    <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Loading...</h4></div>
+                                    <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Well this is awkward...</h4><p class="small">We are either loading the video, or awaiting your consent to use cookies to load this video from Youtube.</p></div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-xl-12 d-none d-sm-block">
                                 <div class="youtube-container embed-responsive embed-responsive-16by9">
-                                    <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Loading...</h4></div>
+                                    <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Well this is awkward...</h4><p class="small">We are either loading the video, or awaiting your consent to use cookies to load this video from Youtube.</p></div>
                                 </div>
                             </div>
                         </div>
@@ -44,10 +44,10 @@
                     </div>
                     <div class="col-xl-6 pl-xl-4 align-self-center d-none d-xl-block">
                         <div class="youtube-container mb-xl-5 mb-3 embed-responsive embed-responsive-16by9">
-                            <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Loading...</h4></div>
+                            <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Well this is awkward...</h4><p class="small">We are either loading the video, or awaiting your consent to use cookies to load this video from Youtube.</p></div>
                         </div>
                         <div class="youtube-container mb-xl-0 embed-responsive embed-responsive-16by9">
-                            <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Loading...</h4></div>
+                            <div class="youtube-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Well this is awkward...</h4><p class="small">We are either loading the video, or awaiting your consent to use cookies to load this video from Youtube.</p></div>
                         </div>
                     </div>
                 </div>

@@ -82,6 +82,9 @@ h4 {
         width:100%;
         height: 307px;
         background:rgba(0,0,0,0.9);
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
     }
 
     iframe + .youtube-cover  {
@@ -90,6 +93,15 @@ h4 {
 
     iframe {
         margin: 0 auto;
+    }
+}
+
+#twitch-stream-container {
+    .twitch-cover {
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        background:rgba(255,255,255,0.7);
     }
 }
 

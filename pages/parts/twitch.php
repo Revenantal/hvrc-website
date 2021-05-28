@@ -23,8 +23,12 @@
                             </div>
                         </div> 
                     </div>
+
+
                     <div class="col-xl-9 col-sm-10 offset-xl-0 offset-sm-1 col-12 ">
-                        <div id="twitch-stream-container" class="embed-responsive embed-responsive-16by9"></div>
+                        <div id="twitch-stream-container" class="embed-responsive embed-responsive-16by9">
+                            <div class="twitch-cover d-flex align-items-center text-center embed-responsive-item"><h4 class="mx-auto">Well this is awkward...</h4><p class="small">We are either loading the video, or awaiting your consent to use cookies to load this video from Twitch.</p></div>
+                        </div>
                     </div>
                 </div>
             </div>

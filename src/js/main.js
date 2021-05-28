@@ -14,9 +14,6 @@ $( document ).ready(function() {
     init();
 
     function init() {
-        toggleStickyHeader();
-        populateYoutubeVideos();
-        populateTwitchStream();
 
         var lazyload = new LazyLoad({
             callback_loading: function(element) {
@@ -27,6 +24,7 @@ $( document ).ready(function() {
             },
         });
 
+        toggleStickyHeader();
         var easter_egg = new Konami(function() { jobeyInvasion(5000); });
     }
 
@@ -75,24 +73,6 @@ $( document ).ready(function() {
         }
     }
 
-    function populateYoutubeVideos() {
-        var tag = document.createElement('script');
-
-        tag.src = "https://www.youtube.com/iframe_api";
-        var firstScriptTag = document.getElementsByTagName('script')[0];
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    }
-
-    function populateTwitchStream() {
-        var options = {
-            width: 825,
-            height: 465,
-            channel: "hummysvrcomedy"
-          };
-          var player = new Twitch.Player("twitch-stream-container", options);
-          player.setMuted(true);
-    }
-
     function jobeyInvasion(frequency) {
 
         var confirmedCrazy = confirm("Are you sure you wish to invoke the ancient ritual of the Konami Code?");
@@ -115,3 +95,28 @@ $( document ).ready(function() {
         }
     } 
 });
+
+function populateYoutubeVideos() {
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+}
+
+function populateTwitchStream() {
+
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.src = 'https://player.twitch.tv/js/embed/v1.js';
+    document.getElementsByTagName('head')[0].appendChild(script);
+    
+    script.onload = function() { 
+        var options = {
+            width: 825,
+            height: 465,
+            channel: "hummysvrcomedy"
+          };
+          var player = new Twitch.Player("twitch-stream-container", options);
+          player.setMuted(true);
+    }
+}

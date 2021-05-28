@@ -6,7 +6,7 @@
   "author": "Revenantal",
   "scripts": {
     "scss": "node-sass --output-style compressed -o dist/css src/scss",
-    "uglify": "mkdirp dist/js -p && uglifyjs src/js/*.js -m -o dist/js/app.js && uglifyjs src/js/*.js -m -c -o dist/js/app.min.js",
+    "uglify": "mkdirp dist/js -p && uglifyjs src/js/*.js -o dist/js/app.js && uglifyjs src/js/*.js -c -o dist/js/app.min.js",
     "build:css": "run-s scss",
     "build:js": "run-s uglify",
     "build": "run-s clean && run-s build:* && run-s copy:*",
